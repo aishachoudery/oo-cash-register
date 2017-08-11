@@ -101,10 +101,6 @@ describe 'AmazonTransaction' do
   #       expect(amazon_transaction.transaction_code).to be < 999999
   #    end
 
-  # it 'at the creation of a new transaction it saves each transaction\'s code to a class variable called transaction_codes' do
-  #    expect(amazon_transaction.transaction_codes.length).to eq(6)
-  #  end
-  # end
 
   #  describe '#print_receipt' do
   #     it 'prints the customer\'s receipt to a .txt file' do
