@@ -18,7 +18,7 @@ Go to `amazon_transaction_spec.rb` and uncomment the extra tests. Each bonus inc
 
 Bonus 1: Build a method called `cancel_order` that will remove the last transaction from the total. You'll need to make an additional attribute accessor and keep track of that last transaction amount somehow. Hint: in what method of the class are you working with an individual item?
 
-Bonus 2: Amazon keeps a history of it's user's transactions so they can access them later in case the customer needs a refund or wants to see past purchases. For this challenge, you'll need to add a randomly generated numeric code as an attribute to the transaction. Then, you'll need to use a class variable to store each transaction's code so Amazon can easily look up each transaction later.
+Bonus 2: Amazon keeps a history of it's user's transactions so they can access them later in case the customer needs a refund or wants to see past purchases. For this challenge, you'll need to add a randomly generated numeric code as an attribute to the transaction. Then, you'll need to use an instance variable to store the transaction code of a single instance so Amazon can easily look up the transaction later.
 
 Bonus 3: Want to make your cash register even more realistic? We can use Ruby to write text into different types of files. So instead of printing to the screen you could write a print_receipt method that can actually put the transaction details in a receipt.txt file, which your customers can print out or save. To complete this bonus you'll need to do a bit of research on how to do this (hint: look up File; it's a built-in Ruby class!)
 
