@@ -95,7 +95,7 @@ describe 'AmazonTransaction' do
   # end
 
   #Completing this test requires knowledge of class variables, class methods and self. 
-  # describe '.transaction_codes' do
+  # describe '.transaction_code' do
   #  it 'generates a random, six-digit code when a transaction is created' do
   #       expect(amazon_transaction.transaction_code).to be > 100000
   #       expect(amazon_transaction.transaction_code).to be < 999999
