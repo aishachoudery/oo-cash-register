@@ -102,7 +102,7 @@ describe 'AmazonTransaction' do
   #    end
 
   # it 'at the creation of a new transaction it saves each transaction\'s code to a class variable called transaction_codes' do
-  #    expect(AmazonTransaction.transaction_codes.length).to eq(16)
+  #    expect(amazon_transaction.transaction_codes.length).to eq(6)
   #  end
   # end
 
